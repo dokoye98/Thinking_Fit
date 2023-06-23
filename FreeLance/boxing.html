@@ -5,11 +5,34 @@
         <meta charset="uft-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
-        <style>
+        <script type="text/javascript">
+            function calculate(){
+                
+                var course = 0;
+                var total =0;
+
+                if (document.getElementById("single").checked == true)
+                {
+                    total = 75;
+
+
+                }
+                else if(document.getElementById("third").checked == true){
+
+                    total = 170;
+                }
+                else if(document.getElementById("ten").checked == true){
+                    total = 300;
+                }
+
+
+                alert("your total will be $"+total);
+
+            }
 
 
 
-        </style>
+        </script>
     </head>
         <body>
             <header><img src="media/images/image_123986672-removebg-preview.png" alt="Logo">
@@ -81,7 +104,7 @@
                 </table>
                 </div>
                 
-                <p><input type="submit" id="submit" value="Submit"></p>
+                <p><input type="submit" id="submit" value="Submit" onclick="calculate()"></p>
            
                  <input type="reset" id="reset" value="Reset">
                 
