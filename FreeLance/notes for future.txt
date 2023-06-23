@@ -1,0 +1,3 @@
+Image needs to be resized and added links that lead to each class type with prices
+redesign all images with transparency
+move the text on boxing page so its next to it giving breakdown of classes 

@@ -1,0 +1,117 @@
+body {
+    background-image: linear-gradient(grey, silver);
+  }
+  
+  header {
+    list-style: none;
+  
+    font-weight: bold;
+    text-align: center;
+    border-radius: 1em;
+  }
+  header ul {
+    list-style: none;
+    padding: 0.2em;
+    margin-bottom: 0.2em;
+    border-radius: 1em;
+  
+    margin: 0.25em;
+  }
+  main img {
+    width: 100%; /*reaches 100% of the width*/
+    height: auto; /*changes depending on webpage*/
+    max-width: 500px;
+  }
+  
+  nav {
+    list-style: none;
+  
+    font-weight: bold;
+    text-align: center;
+    border-radius: 1em;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0.2em;
+    margin-bottom: 0.2em;
+    border-radius: 1em;
+  
+    border-bottom: solid 0.3 black;
+    margin: 0.25em;
+  }
+  main {
+    padding-bottom: 3em;
+    border-top: solid 0.2em black;
+    border-bottom: solid 0.2em black;
+    border-radius: 1em;
+    margin-bottom: 0.2em;
+  }
+  main video {
+    width: 20%;
+    height: auto;
+  }
+  main h1 {
+    text-align: left;
+  }
+  footer img {
+    max-width: 350px;
+  }
+  header ul li a {
+    /*this li a -links inside list*/
+    text-decoration: none;
+  }
+  
+
+  
+
+  
+  .tabs th,
+  .tabs td {
+    
+    padding: 0.5em;
+    text-align: center;
+    width: 45%;
+    
+  }
+.tabo, .tabo caption{
+    border: 0.2em solid black;
+    border-radius: 1.0em;
+}
+ 
+  
+  .tabo th,
+  .tabo td {
+    
+    padding: 0.8em;
+    text-align: center;
+    width: 25%;
+    border-collapse: collapse;
+  }
+  .buts {
+    
+    padding: 0.5em;
+    
+  }
+  
+
+  /*mobile device*/
+  @media screen and (max-width: 640px) {
+    header ul li {
+      border-radius: 1em;
+    }
+  }
+  /*tablet*/
+  @media screen and (min-width: 641px) {
+    header ul li {
+      display: inline-block;
+      border-radius: 1em;
+    }
+  }
+  /*desktop*/
+  @media screen and (min-width: 941px) {
+    header ul li {
+      display: inline-block;
+      border-radius: 1em;
+    }
+  }
+  

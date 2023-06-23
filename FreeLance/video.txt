@@ -1,0 +1,10 @@
+<div class="contain">
+
+                <div class="vid">
+                    <video controls>
+                        <source src="media/images/vid1.mp4" align="left" type="video/mp4">
+    
+    
+                    </video>
+                </div>
+                </div>
